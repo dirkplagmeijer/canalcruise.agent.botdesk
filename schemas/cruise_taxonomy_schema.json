@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org",
+  "$id": "https://botdesk.eth",
+  "title": "BotDesk Maritime M2M Taxonomy Schema",
+  "description": "Standardized 7-step machine-to-machine data model for canal cruises, boat tours, salon boats, and self-drive charters.",
+  "type": "object",
+  "required": [
+    "protocol_version",
+    "booking_id",
+    "service_category",
+    "departure_point",
+    "sailing_parameters",
+    "pricing_and_terms",
+    "settlement_authorization"
+  ],
+  "properties": {
+    "protocol_version": {
+      "type": "string",
+      "default": "1.0.0"
+    },
+    "booking_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "service_category": {
+      "type": "string",
+      "enum": ["canal_cruise", "city_cruise", "boat_tour", "salon_boat", "private_charter", "self_drive_rental"]
+    },
+    "agent_governance": {
+      "type": "object",
+      "description": "Mapped to agentconsent.eth and agentallowance.eth",
+      "properties": {
+        "consent_proof_hash": { "type": "string" },
+        "max_allowance_amount": { "type": "number" },
+        "currency": { "type": "string", "default": "USDC" }
+      }
+    },
+    "departure_point": {
+      "type": "object",
+      "description": "Boarding location (opstapplaats) coordinates and operator details",
+      "required": ["operator_did", "boarding_point_name", "city", "latitude", "longitude"],
+      "properties": {
+        "operator_did": { "type": "string" },
+        "boarding_point_name": { "type": "string" },
+        "city": { "type": "string" },
+        "country_code": { "type": "string" },
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" }
+      }
+    },
+    "sailing_parameters": {
+      "type": "object",
+      "description": "Query parameters mapped to canalcruiseavailability.eth and boattouravailability.eth",
+      "required": ["departure_datetime", "duration_minutes", "passenger_count"],
+      "properties": {
+        "departure_datetime": { "type": "string", "format": "date-time" },
+        "duration_minutes": { "type": "integer", "minimum": 15 },
+        "passenger_count": {
+          "type": "object",
+          "properties": {
+            "adults": { "type": "integer", "minimum": 1 },
+            "children": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "private_vessel": { "type": "boolean", "default": false }
+      }
+    },
+    "ticket_and_access": {
+      "type": "object",
+      "description": "Mapped to boatticket.eth, boattourticket.eth and startrental.eth",
+      "properties": {
+        "ticket_token_id": { "type": "string" },
+        "qr_verification_hash": { "type": "string" },
+        "vessel_unlock_code": { "type": "string" }
+      }
+    },
+    "pricing_and_terms": {
+      "type": "object",
+      "description": "Mapped to rentalpayment.eth, bookinginvoice.eth and cancellationterms.eth",
+      "required": ["total_amount", "currency", "cancellation_terms"],
+      "properties": {
+        "base_price": { "type": "number" },
+        "city_tax": { "type": "number" },
+        "total_amount": { "type": "number" },
+        "currency": { "type": "string" },
+        "cancellation_terms": {
+          "type": "object",
+          "properties": {
+            "refundable": { "type": "boolean" },
+            "weather_guarantee": { "type": "boolean" },
+            "free_cancellation_until": { "type": "string", "format": "date-time" }
+          }
+        }
+      }
+    },
+    "settlement_authorization": {
+      "type": "object",
+      "description": "Proprietary Settlement & Escrow Gate (bookingescrow.eth, paymentescrow.eth)",
+      "required": ["settlement_token", "escrow_status"],
+      "properties": {
+        "settlement_token": {
+          "type": "string",
+          "description": "Certified token issued by the proprietary BotDesk settlement module."
+        },
+        "escrow_status": {
+          "type": "string",
+          "enum": ["pending", "escrow_locked", "released_at_boarding", "refunded", "disputed"]
+        },
+        "booking_status": {
+          "type": "string",
+          "enum": ["confirmed", "boarded", "completed", "cancelled"]
+        }
+      }
+    }
+  }
+}
