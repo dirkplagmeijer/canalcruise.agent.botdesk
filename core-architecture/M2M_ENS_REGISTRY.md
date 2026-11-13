@@ -25,12 +25,13 @@
 * **Charter & Tour Execution:** `makerental.eth`
 * **Escrow, Payments & Split-Billing:** `bookingescrow.eth`, `paymentescrow.eth`, `rentalpayment.eth`, `bookinginvoice.eth`
 
-#### Step 5: Boarding, Digital Tickets & Session Start (Physical Handover)
+#### Step 5: Boarding, Digital Tickets & Vessel Access (Physical Handover)
 * **Digital Boarding Passes & QR/NFT Tickets:** `boatticket.eth`, `boattourticket.eth`
-* **Vessel Session Activation:** `startrental.eth`
+* **Self-Drive Vessel Access & Session Activation:** `startrental.eth`, `rentalkey.eth`
 
-#### Step 6: Disembarkation & Settlement (Completion & Release)
-* **Escrow Release & Completion:** Automated release of `bookingescrow.eth` / `paymentescrow.eth` upon verified ticket scan or charter completion.
+#### Step 6: Disembarkation, Return & Final Settlement (Completion & Release)
+* **Self-Drive Session Termination & Vessel Return:** `endrental.eth`
+* **Escrow Release & Completion:** Automated release of `bookingescrow.eth` / `paymentescrow.eth` upon verified boarding or charter return.
 
 #### Step 7: Cancellations, Refunds & Disputes (Post-Cruise & Weather Incidents)
 * **Tour & Cruise Cancellations:** `canalcruisecancellation.eth`, `boattourcancellation.eth`, `bookingcancellation.eth`
