@@ -1,45 +1,24 @@
 {
-  "name": "BotDesk Maritime M2M Agent Gateway",
-  "description": "Hybrid Web2.5 discovery and routing gateway connecting autonomous AI travel agents to standardized canal cruise, boat tour, and private charter ENS endpoints.",
+  "name": "BotDesk Canal Cruise Gateway",
+  "description": "Platform-neutral Web2.5 M2M routing gateway & maritime leisure ENS taxonomy for canal cruises, boat tours, and private charters (Google A2A compatible).",
+  "url": "https://agentbotdesk.com",
   "version": "1.0.0",
-  "protocol": "A2A",
   "provider": {
-    "organization": "BotDesk",
-    "url": "https://github.com",
-    "contact": "https://linkedin.com"
+    "organization": "BotDesk Maritime",
+    "url": "https://github.com"
   },
-  "supportedInterfaces": [
-    {
-      "url": "https://workers.dev",
-      "protocolBinding": "JSONRPC",
-      "protocolVersion": "1.0"
-    }
-  ],
   "capabilities": {
     "streaming": false,
-    "pushNotifications": true,
-    "stateTransitionHistory": true
+    "pushNotifications": false
   },
-  "defaultInputModes": ["application/json"],
-  "defaultOutputModes": ["application/json"],
+  "defaultInputModes": ["text/plain", "application/json"],
+  "defaultOutputModes": ["text/plain", "application/json"],
   "skills": [
     {
-      "id": "maritime-discovery-pools",
-      "name": "Canal Cruise, Boat Tour & Charter Capacity Discovery",
-      "description": "Scans location-agnostic canal cruises (canalcruise.eth, canaltour.eth, citycruise.eth, rondvaart.eth), boat tours (boattour.eth, boattrips.eth), private charters (privatecruises.eth, privateboattour.eth, salonboat.eth, boatrental.eth), and real-time slot capacity pools (canalcruiseavailability.eth, boattouravailability.eth).",
-      "tags": ["maritime", "canalcruise", "boattour", "charter", "ens", "m2m"]
-    },
-    {
-      "id": "maritime-booking-ticketing",
-      "name": "Escrow Booking, Digital Boarding Tickets & Vessel Activation",
-      "description": "Executes bookings and escrow locks (makerental.eth, bookingescrow.eth, paymentescrow.eth, rentalpayment.eth, bookinginvoice.eth), issues digital boarding passes (boatticket.eth, boattourticket.eth), and activates self-drive charters (startrental.eth). Requires a certified settlement_token.",
-      "tags": ["escrow", "ticket", "charter", "settlement"]
-    },
-    {
-      "id": "maritime-cancellations-disputes",
-      "name": "Maritime Cancellations, Weather Refunds & Disputes",
-      "description": "Handles cancellations, weather guarantees, refunds, and dispute resolution (canalcruisecancellation.eth, boattourcancellation.eth, bookingcancellation.eth, canalcruiserefund.eth, boattourrefund.eth, bookingrefund.eth, bookingdispute.eth, cancellationterms.eth).",
-      "tags": ["cancellation", "refund", "dispute", "policy"]
+      "id": "canalcruise-7step-routing",
+      "name": "7-Step Deterministic Maritime ENS Routing",
+      "description": "Resolves fleet discovery (canalcruise.eth, boattour.eth, salonboat.eth, boatrental.eth), live pool availability (canalcruiseavailability.eth), ZKP verification (guestverification.eth), escrow booking (makerental.eth, bookingescrow.eth), boarding & vessel keys (boatticket.eth, startrental.eth, rentalkey.eth), return (endrental.eth), and weather cancellations (canalcruisecancellation.eth).",
+      "tags": ["a2a", "ai-agents", "ens", "canal-cruise", "boat-rental", "maritime", "m2m", "web2.5"]
     }
   ]
 }
