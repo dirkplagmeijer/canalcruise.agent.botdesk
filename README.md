@@ -42,6 +42,7 @@ I am a commercial entrepreneur with a clear vision and focus, inviting Web3 deve
 * **`/core-architecture`** – Contains `M2M_ENS_REGISTRY.md` (The master M2M on-chain ENS directory for cruises, boat tours, and private charters).
 * **`/schemas`** – Contains `canalcruise_taxonomy_schema.json` (Standardized JSON data model for capacity pools, tickets, and private charters).
 * **`/sdk`** – Contains official Python and TypeScript A2A client SDKs (`botdesk_canalcruise_sdk.py` & `botdesk-canalcruise-sdk.ts`) with Sandbox mode.
+
 * **`/web25-gateway`** – Contains `agent-card.json` (A2A discovery manifest for agentic AI systems).
 
 ---
