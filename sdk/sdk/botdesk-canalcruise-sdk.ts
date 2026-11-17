@@ -10,7 +10,7 @@ export class BotDeskCanalCruiseClient {
   private sandbox: boolean;
 
   constructor(options: CanalCruiseClientOptions = {}) {
-    this.endpoint = (options.endpoint || "https://agentbotdesk.com").replace(/\/$/, "");
+    this.endpoint = (options.endpoint || "https://canalcruise.agentbotdesk.com").replace(/\/$/, "");
     this.settlementToken = options.settlementToken;
     this.sandbox = options.sandbox ?? true;
   }
