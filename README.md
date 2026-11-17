@@ -31,7 +31,7 @@ I am a commercial entrepreneur with a clear vision and focus, inviting Web3 deve
 
 ---
 
-### 🌐 Live Web2.5 Discovery & A2A Gateway Endpoints
+### 🌐 Live Bridge Web2.5 Discovery & A2A Gateway Endpoints
 * **Official A2A Discovery Manifest:** `GET https://agentbotdesk.com`
 * **JSON-RPC 2.0 Agent Endpoint:** `POST https://canalcruise.agentbotdesk.com`
 * **Lightweight ENS Route Resolver:** `GET https://canalcruise.agentbotdesk.com/route?category=canalcruise&step=1`
@@ -60,7 +60,7 @@ I am a commercial entrepreneur with a clear vision and focus, inviting Web3 deve
 ---
 
 ### 🛠️ Technical Roadmap & Licensing
-* **Phase 1:** Core logical frameworks, 7-step taxonomy, and Web2.5 A2A Discovery Gateway finalized.
+* **Phase 1:** Core logical frameworks, 7-step taxonomy, and Bridge Web2.5 A2A Discovery Gateway finalized.
 * **Phase 2:** Compiling datasets into an OpenAPI 3.0 Specification (`openapi.yaml`).
 * **Phase 3:** Connecting fleet reservation systems to the deterministic M2M routing layer.
 * **License:** Open-source under the MIT License. Note that the core Payment and Escrow Smart Contract Module is proprietary and requires a verified partnership and certified `settlement_token`. Inquiries via [LinkedIn](https://linkedin.com) or **`canalcruise@agentbotdesk.com`**.
