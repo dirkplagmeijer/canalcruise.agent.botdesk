@@ -1,10 +1,10 @@
 {
-  "name": "BotDesk Canal Cruise Gateway",
-  "description": "Platform-neutral Web2.5 M2M routing gateway & maritime leisure ENS taxonomy for canal cruises, boat tours, and private charters (Google A2A compatible).",
-  "url": "https://agentbotdesk.com",
+  "name": "AgentBotDesk Canal Cruise Gateway",
+  "description": "Platform-neutral Web2.5 M2M routing gateway & maritime leisure ENS taxonomy for agentic canal cruises, boat tours, and private charters (Google A2A compatible).",
+  "url": "https://canalcruise.agentbotdesk.com",
   "version": "1.0.0",
   "provider": {
-    "organization": "BotDesk Maritime",
+    "organization": "AgentBotDesk Maritime",
     "url": "https://github.com"
   },
   "capabilities": {
