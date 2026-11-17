@@ -2,7 +2,8 @@
 ## The Web2.5 M2M Routing Layer enabling AI-Agents to Search for and Book Boat Tours and Canal & Private Cruises.
 
 
-**AgentBotDesk Maritime** introduces a cross-chain, location-agnostic maritime leisure taxonomy and hybrid Web2.5 discovery gateway for agentic AI systems (ChatGPT, Gemini, Google A2A, and MCP agents) and fleet operators, bypassing high OTA commissions.
+**AgentBotDesk Canal Cruises** connects boat tour operators and private charter fleet owners directly to AI-agents without high OTA commissions or fragile web scraping. Through a standardized 7-step ENS taxonomy and hybrid Web2.5 gateway, agents access real-time seat availability, execute instant bookings, and receive digital tickets.
+
 
 📩 Visit [LinkedIn](https://linkedin.com) or contact **`canalcruise@agentbotdesk.com`** to connect and explore strategic partnerships or integration opportunities.
 
