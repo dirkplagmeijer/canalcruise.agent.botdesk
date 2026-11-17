@@ -22,7 +22,7 @@ Anticipating a major transformation in urban canal tours, driven by critical mar
 We offer a Web2.5 bridge gateway for AI-agents on which a fully automated, machine-to-machine booking network can be built and scaled.
 
 
-I am a commercial entrepreneur with a clear vision and focus, inviting Web3 developers, ecosystem architects, fleet operators, and business developers to build, cooperate, and integrate the data layer for the future of maritime leisure under the `canalcruise.agent.botdesk` architecture.
+I am a commercial entrepreneur with a clear vision and focus, inviting Web3 developers, ecosystem architects, fleet operators, and business developers to build, cooperate, and integrate the data layer for the future urban canal- and private cruises under the `canalcruise.agent.botdesk` architecture.
 
 
 
