@@ -30,7 +30,8 @@
 3. **Verification, Identity & Policy:** Validates traveler credentials and cancellation terms (`guestidentity.eth`).
 4. **Booking, Escrow & Payment:** Executes bookings and handles escrow via proprietary settlement tokens and endpoints (`makerental.eth`, `bookingescrow.eth`).
 5. **Boarding & Digital Tickets:** Issues QR/NFT passes and activates self-drive sessions (`boatticket.eth`).
-6. **Disembarkation & Settlement:** Completes sessions and releases escrow upon verified boarding.
+6. **Disembarkation & Settlement:** Completes sessions and releases escrow upon verified boarding (`endrental.eth`, `paymentescrow.eth`).
+
 7. **Cancellations & Disputes:** Handles weather incidents, refunds, and dispute resolution (`canalcruisecancellation.eth`).
 
 ---
