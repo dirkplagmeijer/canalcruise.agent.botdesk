@@ -5,7 +5,8 @@
 **AgentBotDesk Canal Cruises** connects boat tour operators and private charter fleet owners directly to AI-agents without high OTA commissions or fragile web scraping. Through a standardized 7-step ENS taxonomy and hybrid Web2.5 gateway, agents access real-time seat availability, execute instant bookings, and receive digital tickets.
 
 
-📩 Visit [LinkedIn](https://linkedin.com) or contact **`canalcruise@agentbotdesk.com`** to connect and explore strategic partnerships or integration opportunities.
+📩 Visit [LinkedIn](https://linkedin.com) or contact **`canalcruise@agentbotdesk.com`** to connect and explore strategic cooperation or integration opportunities.
+
 
 ---
 
