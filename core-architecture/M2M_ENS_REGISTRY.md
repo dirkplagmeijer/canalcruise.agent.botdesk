@@ -1,5 +1,5 @@
 # M2M ENS Registry — Canal Cruises & Charters (`canalcruise.agent.botdesk`)
-**The Definitive On-Chain Routing Directory for Agentic Canal Cruises, Boat Tours & Private Charters**
+**The Definitive On-Chain Routing Directory for Agentic Canal & Private Cruises and Boat Tours**
 
 
 #### Core Protocol & Shared Agent Layer (Universal)
