@@ -2,7 +2,8 @@
 ## The Web2.5 M2M Routing Layer enabling AI-Agents to Search for and Book Boat Tours and Canal & Private Cruises.
 
 ---
-**AgentBotDesk Canal Cruises** connects boat tour operators and private charter fleet owners directly to AI-agents. Through a standardized 7-step ENS taxonomy and hybrid Web2.5 gateway, agents access real-time seat availability, execute instant bookings, and issue digital tickets.
+**AgentBotDesk Canal Cruises** connects boat tour operators and private charter fleet owners directly to AI-agents. Through a standardized 7-step ENS taxonomy and Web2.5 bridge gateway, agents access real-time seat availability, execute instant bookings, and issue digital tickets.
+
 
 
 
