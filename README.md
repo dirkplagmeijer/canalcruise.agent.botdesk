@@ -1,5 +1,5 @@
-# canalcruise.agent.botdesk
-### ### The Web2.5 M2M Routing Layer enabling AI-Agents to Search for and Book Boat Tours and Canal & Private Cruises.
+## canalcruise.agent.botdesk
+### The Web2.5 M2M Routing Layer enabling AI-Agents to Search for and Book Boat Tours and Canal & Private Cruises.
 
 
 **AgentBotDesk Maritime** introduces a cross-chain, location-agnostic maritime leisure taxonomy and hybrid Web2.5 discovery gateway for agentic AI systems (ChatGPT, Gemini, Google A2A, and MCP agents) and fleet operators, bypassing high OTA commissions.
