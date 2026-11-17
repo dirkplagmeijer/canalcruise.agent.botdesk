@@ -11,7 +11,7 @@
 Anticipating a major transformation in urban canal tours, driven by critical market forces:
 
 * **Global Big Tech race to build AI personal travel agents**
-* **Reduced commission pressure:** Tour operators and boat owners require direct, low-commission bookings
+* **Reduced commission pressure:** Tour operators and boat owners seek direct, low-commission bookings
 * **Dynamic fleet & slot utilization:** Operators seek higher seat occupancy and charter efficiency
 * **Unified open M2M standards:** AI travel assistants deployed by Big Tech require standardized data models
 
