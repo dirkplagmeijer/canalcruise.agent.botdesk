@@ -19,7 +19,8 @@ Anticipating a major transformation in urban canal tours, driven by critical mar
 
 **AgentBotDesk Canal Cruises** introduces a cross-chain, highly efficient urban canal cruise taxonomy that provides the definitive open-source framework upon which Web3 and travel developers can openly build and deploy their validated endpoints.
 
-We offer a hybrid Web2.5 discovery gateway for AI-agents on which a fully automated, machine-to-machine booking network can be built and scaled.
+We offer a Web2.5 bridge gateway for AI-agents on which a fully automated, machine-to-machine booking network can be built and scaled.
+
 
 I am a commercial entrepreneur with a clear vision and focus, inviting Web3 developers, ecosystem architects, fleet operators, and business developers to build, cooperate, and integrate the data layer for the future of maritime leisure under the `canalcruise.agent.botdesk` architecture.
 
