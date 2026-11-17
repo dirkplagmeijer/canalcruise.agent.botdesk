@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org",
   "$id": "https://botdesk.eth",
-  "title": "BotDesk Maritime M2M Taxonomy Schema",
+  "title": "AgentBotDesk Maritime M2M Taxonomy Schema",
   "description": "Standardized 7-step machine-to-machine data model for canal cruises, boat tours, salon boats, and self-drive charters.",
   "type": "object",
   "required": [
