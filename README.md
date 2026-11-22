@@ -61,7 +61,8 @@ I am a commercial entrepreneur with a clear vision and focus, inviting Web3 deve
 ### 🚀 AgentBotDesk Ecosystem Verticals
 * 🚕 **[Passenger Mobility (`mobility.agent.botdesk`)](https://github.com)** — 7-step deterministic M2M routing for agentic Robotaxi rides and Rental fleets (`roboride.eth`, `carrental.eth`).
 * 🏨 **[Hotel Room Hospitality (`hotelroom.agent.botdesk`)](https://github.com)** — Agentic room discovery, binding rate quotes, ZKP guest verification, and deposit escrow (`hotelsearch.eth`, `roombooking.eth`).
-* 🚤 **Canal Cruises (`canalcruise.agent.botdesk`)** — Direct M2M availability, ticketing, and settlement for urban boat tours and private cruises (`canalcruise.eth`, `boatticket.eth`).
+🚤 **Canal Cruises & Leisure** (`canalcruise.agent.botdesk`) — Direct M2M availability, ticketing, and settlement for urban boat tours, leisure activities, and private charters (`canalcruise.eth`, `boatticket.eth`).
+
 
 ---
 
